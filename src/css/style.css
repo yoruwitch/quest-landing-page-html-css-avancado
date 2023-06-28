@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+:root {
+    --primary-dark: hsl(257, 40%, 49%);
+    --primary-light: hsl(300, 69%, 71%);
+    --active-status: #fb53c0;
+}
+
+body {
+    background-color: var(--primary-dark);
+    background-image: url(../images/bg-desktop.svg);
+    font-family: "Poppins", sans-serif;
+}
+
+/*  ------------ Header --------------  */
+
+header,
+nav {
+    display: flex;
+    width: fit-content;
+}
+
+header .logo {
+    width: 200px;
+    margin: 10px 60px;
+    transition: 0.3s;
+}
+
+header a:hover .logo {
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px var(--primary-light);
+}
+
+/*  ------------ Main --------------  */
+
+
+.main-container {
+    display: flex;
+    width: 1440px;
+    max-width: 100%;
+    color: #fff;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.main-container img {
+    width: 50%;
+    height: 50%;
+    margin-left: 55px;
+}
+
+.description-container {
+    margin: 43px 70px;
+}
+
+.description-container .title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 20px;
+}
+
+.description-container p {
+    margin-bottom: 20px;
+}
+
+.description-container .description {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.description-container .btn-register {
+    font-size: 14px;
+    border-radius: 30px;
+    background-color: #fff;
+    padding: 10px 50px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    box-shadow: 1px 1px 8px rgb(54, 53, 53);
+    color: var(--primary-dark);
+    transition: 0.3s;
+}
+
+.description-container .btn-register:hover {
+    color: #fff;
+    background-color: var(--primary-light);
+}
+
+/*  ------------ Footer --------------  */
+
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 60px;
+}
+
+footer a {
+    margin: 0 10px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    padding: 0.5em 0.8em;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.icon-fb {
+    padding: 0.5em 1em;
+}
+
+footer a:hover {
+    color: var(--active-status);
+    border: 2px solid var(--active-status);
+}
