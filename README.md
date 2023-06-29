@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [here](https://github.com/yoruwitch/quest-landing-page-html-css-avancado)
--   Live Site URL: [here](https://your-live-site-url.com)
+-   Live Site URL: [here]([https://your-live-site-url.com](https://yoruwitch.github.io/quest-landing-page-html-css-avancado/))
 
 ## My process
 
