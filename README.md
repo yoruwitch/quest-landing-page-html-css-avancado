@@ -41,8 +41,6 @@ Users should be able to:
 -   CSS custom properties
 -   Flexbox
 
--   [Styled Components](https://styled-components.com/) - For styles
-
 ### What I learned
 
 -   Tons of positioning with CSS that I haven't learned very well.
